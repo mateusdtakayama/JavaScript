@@ -26,3 +26,4 @@ var fullName = primeiroNome + " " + segundoNome
 var hora = " to go lunch"
 var frase = "Its time" + hora
 console.log(frase)
+console.log(typeof frase)
