@@ -1,15 +1,17 @@
 // Retorne a url da página atual utilizando o objeto window
 
-window.location.host
+const hrefPagina = window.location.href
+console.log(hrefPagina)
 
 // Selecione a primeiro elemento da página que possui classe ativa
 
-const Elemento = document.querySelector('h1')
+const Elemento = document.querySelector('.h1')
 console.log(Elemento)
 
 // Retorne a linguagem do navegador
 
-window.navigator.language
+const Lingua = window.navigator.language
+console.log(Lingua)
 
 // Retorne a largura da janela
 
